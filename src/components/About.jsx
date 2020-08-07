@@ -76,7 +76,7 @@ class About extends Component {
                         onClick={() => this.handleClickNeurology()}
                     >
                         <figure className="figure">
-                            <img src="src/img/neurology-icon.png" alt="neurology-icon"/>
+                            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/neurology-icon.png" alt="neurology-icon"/>
                             <figcaption>Неврологія</figcaption>
                         </figure>
                         <div className="triangle"
@@ -88,7 +88,7 @@ class About extends Component {
                         onClick={() => this.handleClickMassage()}
                     >
                         <figure className="figure">
-                            <img src="src/img/massage-icon.png" alt="massage-icon"/>
+                            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/massage-icon.png" alt="massage-icon"/>
                             <figcaption>Масаж</figcaption>
                         </figure>
                         <div className="triangle"
@@ -100,7 +100,7 @@ class About extends Component {
                         onClick={() => this.handleClickRheumatology()}
                     >
                         <figure className="figure">
-                            <img src="src/img/rheumatology-icon.png" alt="rheumatology-icon"/>
+                            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/rheumatology-icon.png" alt="rheumatology-icon"/>
                             <figcaption>Рематологія</figcaption>
                         </figure>
                         <div className="triangle"

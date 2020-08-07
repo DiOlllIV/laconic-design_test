@@ -20,7 +20,7 @@ const Massage = (props) => {
                 </p>
                 <button className="item-btn">Деталі</button>
             </div>
-            <img src="src/img/massage-img.png" alt="massage"/>
+            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/massage-img.png" alt="massage"/>
         </div>
     )
 };

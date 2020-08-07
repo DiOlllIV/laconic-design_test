@@ -20,7 +20,7 @@ const Rheumatology = (props) => {
                 </p>
                 <button className="item-btn">Деталі</button>
             </div>
-            <img src="src/img/rheumatology-img.png" alt="rheumatology"/>
+            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/rheumatology-img.png" alt="rheumatology"/>
         </div>
     );
 };

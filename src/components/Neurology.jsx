@@ -20,7 +20,7 @@ const Neurology = (props) => {
                 </p>
                 <button className="item-btn">Деталі</button>
             </div>
-            <img src="src/img/neurology-img.png" alt="neurology"/>
+            <img src="https://raw.githubusercontent.com/DiOlllIV/laconic-design_test/master/src/img/neurology-img.png" alt="neurology"/>
         </div>
     );
 };
