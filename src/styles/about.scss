@@ -1,0 +1,119 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        margin-top: 4%;
+        font-size: 0.8vw;
+        text-transform: uppercase;
+        color: rgb(196, 196, 196);
+    }
+
+    &__addtitle {
+        margin: 0;
+        margin-bottom: 1%;
+        font-size: 30px;
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 4% 0;
+    }
+
+    &-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        text-transform: uppercase;
+        background-color: transparent;
+        margin: 0 4%;
+    }
+
+    &__massage {
+        border-left: 1px solid rgb(47, 128, 237);
+        border-right: 1px solid rgb(47, 128, 237);
+        padding: 0 4%;
+    }
+
+    &__item {
+        align-items: center;
+        background-color: rgb(246, 246, 246);
+        box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+        padding: 3% 0;
+    }
+
+    &__description {
+        width: 35%;
+        margin: 0 10%;  
+        font-size: 0.8em;
+        font-family: HelveticaNeueCyr;
+        
+        &>p {
+            margin: 10% 0;
+            width: 75%;
+            line-height: 14px;
+        }
+    }
+}
+
+.item-btn {
+    width: 40%;
+    height: 5.5vh;
+    border: 1px solid rgb(47, 128, 237);
+    border-radius: 5px;
+    color: rgb(47, 128, 237);
+}
+
+.decoration {
+    display: flex;
+
+    &__star{
+        width: 26px;
+        height: 26px;
+        background-color: rgb(47, 128, 237);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    }
+
+    &__line {
+        width: 50px;
+        margin: 13px;
+        border-top: 1px solid rgb(47, 128, 237);;
+    }
+}
+
+.figure {
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    &>img{
+        width: 100%;
+    }
+
+    &>figcaption {
+        margin-top: 45%;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.triangle {
+    position: absolute;
+    top: 145px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+

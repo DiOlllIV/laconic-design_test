@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6) 0%, transparent 100%), url('../img/main-img.png');
+    background-size: cover;
+    height: 75vh;
+
+    &__description {
+        margin: 15vh 0 0 55vw;
+        height: 20%;
+        width: 35%;
+        text-align: right;
+    }
+}
+
+.description-title {
+    font-size: 1vw;
+    color: #2F80ED; 
+}
+
+.description-addtitle {
+    font-size: 3vw;
+}
+
+.description-btn {
+    width: 40%;
+    height: 5.5vh;
+    background: #2F80ED;
+    border: 1px solid #2F80ED;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}

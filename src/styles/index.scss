@@ -1,0 +1,18 @@
+@import 'header.scss';
+@import 'main.scss';
+@import 'contacts.scss';
+@import 'about.scss';
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    border-style: none;
+    cursor: pointer;
+}
