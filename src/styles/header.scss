@@ -61,6 +61,6 @@
 .logo {
     width: 80%;
     @include for-small-screen {
-        width: 60%;
+        width: 100%;
     }
 }

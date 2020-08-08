@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
 
     &__title {
         margin-top: 4%;
@@ -60,6 +59,7 @@
     }
 
     &__item {
+        justify-content: space-evenly;
         align-items: center;
         background-color: rgb(246, 246, 246);
         box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -67,20 +67,20 @@
 
         @include for-small-screen {
             flex-direction: column;
-            width: 100vw;
         }
 
         &>img{
+            width: 30vw;
             @include for-small-screen {
-                width: 100vw;
                 padding: 2%;
+                width: 90vw;
             }
         }
     }
 
     &__description {
         width: 35%;
-        margin: 0 10%;  
+        margin: 0 5%;  
         font-size: 0.8em;
         font-family: HelveticaNeueCyr;
 

@@ -38,7 +38,7 @@ class About extends Component {
     render () {
         const { neurologyVsbl, 
                 massageVsbl, 
-                rheumTriangleVsblt
+                rheumatologyVsbl
               } = this.state;
 
         const neuroStyle = neurologyVsbl ?  
@@ -47,7 +47,7 @@ class About extends Component {
         const massageStyle = massageVsbl ?  
             { visibility: "visible" } : 
             { visibility: "hidden" };
-        const reuhmStyle = rheumTriangleVsblt ?  
+        const reuhmStyle = rheumatologyVsbl ?  
             { visibility: "visible" } : 
             { visibility: "hidden" };    
               
