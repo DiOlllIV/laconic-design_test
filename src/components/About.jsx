@@ -38,7 +38,7 @@ class About extends Component {
     render () {
         const { neurologyVsbl, 
                 massageVsbl, 
-                rheumatologyVsbl
+                rheumTriangleVsblt
               } = this.state;
 
         const neuroStyle = neurologyVsbl ?  
@@ -47,7 +47,7 @@ class About extends Component {
         const massageStyle = massageVsbl ?  
             { visibility: "visible" } : 
             { visibility: "hidden" };
-        const reuhmStyle = rheumatologyVsbl ?  
+        const reuhmStyle = rheumTriangleVsblt ?  
             { visibility: "visible" } : 
             { visibility: "hidden" };    
               
@@ -73,8 +73,6 @@ class About extends Component {
                         >
                         </div>
                     </button>
-                    <Neurology visibility={this.state.neurologyVsbl}/>
-
                     <button className="about-btn about__massage"
                         onClick={() => this.handleClickMassage()}
                     >
@@ -87,8 +85,6 @@ class About extends Component {
                         >
                         </div>
                     </button>
-                    <Massage visibility={this.state.massageVsbl}/>
-
                     <button className="about-btn about__rheumatology"
                         onClick={() => this.handleClickRheumatology()}
                     >
@@ -102,8 +98,10 @@ class About extends Component {
                         </div>
                     </button>
                 </div>
-                <Rheumatology visibility={this.state.rheumatologyVsbl}/>
 
+                <Neurology visibility={this.state.neurologyVsbl}/>
+                <Massage visibility={this.state.massageVsbl}/>
+                <Rheumatology visibility={this.state.rheumatologyVsbl}/>
             </div>
         );
     }
