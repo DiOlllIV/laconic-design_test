@@ -8,6 +8,12 @@
     align-items: center;
     font-size: 1vw;
     font-family: 'Karla', sans-serif;
+    
+    @include for-small-screen {
+        flex-direction: column;
+        height: 30vh;
+        font-size: 4vw;
+    }
 
     &__location{
         align-items: center;
@@ -15,12 +21,20 @@
         border-right: 1px solid white;
         padding-right: 10%;
         height: 70%;
+        
+        @include for-small-screen {
+            border-bottom: 1px solid white;
+            border-right: none;
+            padding: 0;
+            margin: 1%;
+        }
     }
 
     &__contacts {
         display: flex;
         flex-direction: column;
         margin: 0 10%;
+        padding: 1% 0;
     }
 
     &__mail {
@@ -29,5 +43,12 @@
         border-left: 1px solid white;
         padding-left: 10%;
         height: 70%;
+
+        @include for-small-screen {
+            border-top: 1px solid white;
+            border-left: none;
+            padding: 0;
+            margin: 1%;
+        }
     }
 }
