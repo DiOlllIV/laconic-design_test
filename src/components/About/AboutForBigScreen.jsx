@@ -9,8 +9,7 @@ class About extends Component {
         this.state = {
             neurologyVsbl: false,
             massageVsbl: false,
-            rheumatologyVsbl: false,
-            
+            rheumatologyVsbl: false,         
         };
     }
 
