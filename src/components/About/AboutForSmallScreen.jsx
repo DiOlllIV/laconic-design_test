@@ -1,10 +1,9 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import Massage from './Massage';
 import Neurology from './Neurology';
 import Rheumatology from './Rheumatology';
 
 const About = () => {
-    
     const [neurologyVsbl, handleClickNeurology] = useState(false);
     const [massageVsbl, handleClickMassage] = useState(false);
     const [rheumatologyVsbl, handleClickRheumatology] = useState(false);
