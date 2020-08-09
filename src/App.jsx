@@ -4,11 +4,7 @@ import Main from "./components/Main";
 import Contacts from "./components/Contacts";
 import About from "./components/About/AboutSection";
 
-import readWindowSize from "./readWindowSize";
-
-
 const App = () => {
-  console.log(readWindowSize())
   return (
     <>
       <Header />
